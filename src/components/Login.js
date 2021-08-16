@@ -49,6 +49,7 @@ const Login = () => {
         <input
           id="username"
           data-testid="username"
+          value={formValues.username}
           name="username"
           onChange={handleChanges}
         />
@@ -56,6 +57,7 @@ const Login = () => {
         <input
           id="password"
           data-testid="password"
+          value={formValues.password}
           name="password"
           type="password"
           onChange={handleChanges}
