@@ -20,7 +20,7 @@ const Login = () => {
     e.preventDefault();
 
     if (formValues.username !== "Lambda" || formValues.password !== "School") {
-      setError("Username or Password not valid.")
+      setError("Error: Username or Password not valid.")
     } 
 
     axiosWithAuth()
